@@ -1,8 +1,8 @@
 nodes = [
-  { :hostname => 'kube-master',  :ip => '172.10.10.10', :ram => 4096 },
-  { :hostname => 'kube-node1',  :ip => '172.10.10.11', :ram => 2048 },
-  { :hostname => 'kube-node2',  :ip => '172.10.10.12', :ram => 2048 },
-  { :hostname => 'kube-node3',  :ip => '172.10.10.13', :ram => 2048 }
+  { :hostname => 'kube-master',  :ip => '172.10.10.11', :ram => 4096 },
+  { :hostname => 'kube-node1',  :ip => '172.10.10.12', :ram => 2048 },
+  { :hostname => 'kube-node2',  :ip => '172.10.10.13', :ram => 2048 },
+  { :hostname => 'kube-node3',  :ip => '172.10.10.14', :ram => 2048 }
 ]
 
 Vagrant.configure("2") do |config|
